@@ -76,7 +76,7 @@ ul#buttons{
 }
 
 ul#buttons li {
-	font-family:  Open Sans;
+	font-family: 'Open Sans';
 	display: inline-block;
 	border: 2px solid #96AE22;
 	-moz-border-radius: 10px;
