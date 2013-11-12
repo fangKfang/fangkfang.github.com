@@ -27,12 +27,12 @@ h1 {
 }
 
 h2 {
-	font: 300 1em verdana;
+	font: 300 1em Open Sans;
 	margin-top: -1.55em;
 }
 
 h3 {
-	font: 300 0.65em verdana;
+	font: 300 0.65em Open Sans;
 	float: center;
 	margin-top: -1.5em;
 }
@@ -59,7 +59,7 @@ h3 {
 .about {
 	display: block;
 	margin-top: -1.7em;
-	font-family: verdana;
+	font-family: Open Sans;
 	font-weight: 300; 
 	font-size: 1em;
 }
@@ -76,7 +76,7 @@ ul#buttons{
 }
 
 ul#buttons li {
-	font-family:  verdana';
+	font-family:  Open Sans';
 	display: inline-block;
 	border: 2px solid #96AE22;
 	-moz-border-radius: 10px;
