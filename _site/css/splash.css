@@ -13,7 +13,7 @@ body {
 	height: 100%;
 	min-height: 400px;
 	position: relative; 
-	font: 300 14px Open Sans;
+	font: 300 14px Oleo Script Swash Caps;
 	color: #ffffff;
 }
 
@@ -22,7 +22,7 @@ br {
 }
 
 h1 {
-	font: 400 3em Oleo Script Swash Caps;
+	font-size: 3em;
 	margin-top: -0.05em;
 }
 
@@ -32,9 +32,9 @@ h2 {
 }
 
 h3 {
-	font: 300 0.80em Open Sans;
+	font: 300 0.65em Open Sans;
 	float: center;
-	margin-top: -1.25em;
+	margin-top: -1.5em;
 }
 
 #main {
@@ -76,7 +76,7 @@ ul#buttons{
 }
 
 ul#buttons li {
-	font-family: 'Open Sans';
+	font-family:  Open Sans;
 	display: inline-block;
 	border: 2px solid #96AE22;
 	-moz-border-radius: 10px;

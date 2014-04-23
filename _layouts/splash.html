@@ -1,16 +1,17 @@
+
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
         <title> {{ page.title }}</title>
-        <link href="http://fonts.googleapis.com/css?family=Roboto+Slab|Roboto+Condensed:300italic,400italic,300,400|Open+Sans:400italic,600italic,400,600,300|Oleo+Script+Swash+Caps:400,700" rel="stylesheet" type='text/css'>
-        <link href="/css/styles.css" rel="stylesheet" >
+        <link rel=stylesheet type="text/css" href="http://fonts.googleapis.com/css?family=Roboto+Slab|Roboto+Condensed:300italic,400italic,300,400|Open+Sans:400italic,600italic,400,600,300|Oleo+Script+Swash+Caps:400,700"/> 
+        <link rel=stylesheet href="/css/splash.css" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-    	<div id="main">
+      <div id="main">
         <div class="profile"> 
-          <a href="index.html"><img src="images/portrait.png" alt="image" /></a>
+          <a href="#"><img src="images/portrait.png" alt="image" /></a>
         </div>
         <header>
           <h1>Kelly Fang</h1>
@@ -23,16 +24,9 @@
       <ul id="buttons">
         <li><a href="mailto:fanyun.fang@gmail.com">EMAIL</a></li>
         <li><a href="assets/KfangResume.pdf">RESUME</a></li>
-        <li><a href="#projects">PROJECTS</a></li>
+        <li><a href="/portfolio.html">PROJECTS</a></li>
         <li><a href="http://www.sunsetsattheoffice.tumblr.com">BLOG</a></li>
       </ul>
     </nav>
-    <br>
-    <div id ="slideshow"> 
-      <iframe align="center" src="http://www.flickr.com/slideShow/index.gne?group_id=&user_id=&set_id=72157635209212522&tags=Cars,Lotus,Exige" frameBorder="0" width="760" height="760" scrolling="no"></iframe>
-    </div>
-
-    {{ content }}
-
     </body>
 </html>
