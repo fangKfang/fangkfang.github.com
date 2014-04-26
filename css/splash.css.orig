@@ -32,6 +32,11 @@ h2 {
 }
 
 h3 {
+<<<<<<< HEAD
+	font: 300 0.80em Open Sans;
+	float: center;
+	margin-top: -1.25em;
+=======
 	font: 300 0.7em 'Open Sans';
 	float: center;
 	margin-top: -1em;
@@ -47,6 +52,7 @@ a:visited {
 
 a:hover {
 	color: #FFFFFF;
+>>>>>>> working-site
 }
 
 #main {

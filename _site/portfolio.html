@@ -7,46 +7,80 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 		<!-- Site Properties -->
 		<link rel="stylesheet" type="text/css" href="/media/css/semantic.css"/>
+		<link rel=stylesheet type="text/css" href="http://fonts.googleapis.com/css?family=Roboto+Slab|Roboto+Condensed:300italic,400italic,300,400|Open+Sans:400italic,600italic,400,600,300|Oleo+Script+Swash+Caps:400,700"/>
+		<style type="text/css">
+		html, body {
+        font-family: 'Roboto Slab', sans-serif !important;
+    }
+
+    h1 {
+    	font-family: 'Oleo Script Swash Caps', sans-serif !important;
+    	font-weight: 400;
+    }
+</style>
 		<title>Eat Dirt!</title>	
 	</head>
-	<body>
-		<div class="ui two column page grid">
+	<body class="nav menu">
+		<div class="ui thin vertical inverted labeled icon sidebar menu active">
+			<a class="item">
+				<h1 class="ui header">Hello there!</h1>
+			</a>
+			<a class="item"> 
+				<i class="small green pencil icon"></i>
+				Design
+			</a>
+			<a class="item">
+				<i class="small green camera icon"></i>
+				Photography
+			</a> 
+			<a class="item"> 
+				<i class="small green play icon"></i>
+				Video
+			</a>
+			<a class="item"> 
+				<i class="small green lightbulb icon"></i>
+				Blog
+			</a>
+		</div>
+
+	
+
+
+
+
+
+
+	<div class="container">
+		<div class="ui page grid">
 			<div class="column">
-				<div class="ui labeled vertical fluid inverted icon menu">
-					<a class="item">
-						Hello there!
-					</a>
-					<a class="item">
-						Design
-					</a>
-					<a class="item">
-						Photography
-					</a>
-					<a class="item">
-						Video
-					</a>
+				<div class="ui floating message">
+					<h1>Check this out</h1>
+					<p>While my elves are hard at work constructing this site, please feel free to check out my <a href="https://www.linkedin.com/in/fangkfang">LinkedIn</a>.</p>
 				</div>
 			</div>
-		<div class="column">
-			<div class="ui ">
-				<b>Please excuse the mess. While my elves are still working on fixing up this site, feel free to head over to my <a href="http://www.linkedin.com/in/fangkfang">LinkedIn</a>.</b>
+		</div>
+	</div>
+	<div class="main container">
+		<div class="ui page two column grid">
+			<div class="column">
+				<p>Hey Hey</p>
+			</div> 
+			<div class="column">
+				<p>Hello Hello</p>
 			</div>
 		</div>
 	</div>
 
+	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 
-
-
-	<div class="main container">
-		
-
-	</div>
-
-	<script src="/media/js/jquery.js">
-	
 	</script>
-	<script src="/media/js/semantic.js">
-	
+	<script src="/media/javascript/semantic.js">
+
+	</script>
+
+	<script type="text/javascript">
+	$('.ui.sidebar').sidebar('push page');
+
 	</script>
 	</body>
 </html>
