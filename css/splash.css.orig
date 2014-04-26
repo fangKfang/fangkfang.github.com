@@ -13,8 +13,12 @@ body {
 	height: 100%;
 	min-height: 400px;
 	position: relative; 
-	font: 300 14px 'Oleo Script Swash Caps';
-	color: #EFEFEF;
+<<<<<<< HEAD:css/styles.css
+	font: 300 14px Open Sans;
+=======
+	font: 300 14px Oleo Script Swash Caps;
+>>>>>>> working-site:css/splash.css
+	color: #ffffff;
 }
 
 br {
@@ -22,31 +26,19 @@ br {
 }
 
 h1 {
-	font-size: 3em;
+	font: 400 3em Oleo Script Swash Caps;
 	margin-top: -0.05em;
 }
 
 h2 {
-	font: 300 0.9em 'Roboto Slab';
+	font: 300 1em Open Sans;
 	margin-top: -1.55em;
 }
 
 h3 {
-	font: 300 0.7em 'Open Sans';
+	font: 300 0.80em Open Sans;
 	float: center;
-	margin-top: -1em;
-}
-
-a:link {
-	color: #96AE22;
-}
-
-a:visited {
-	color: #96AE22;
-}
-
-a:hover {
-	color: #FFFFFF;
+	margin-top: -1.25em;
 }
 
 #main {
@@ -71,7 +63,7 @@ a:hover {
 .about {
 	display: block;
 	margin-top: -1.7em;
-	font-family: 'Roboto Slab';
+	font-family: Open Sans;
 	font-weight: 300; 
 	font-size: 1em;
 }
@@ -88,8 +80,11 @@ ul#buttons{
 }
 
 ul#buttons li {
-	font-family: 'Roboto Slab';
-	font-weight: 300;
+<<<<<<< HEAD:css/styles.css
+	font-family: 'Open Sans';
+=======
+	font-family:  Open Sans;
+>>>>>>> working-site:css/splash.css
 	display: inline-block;
 	border: 2px solid #96AE22;
 	-moz-border-radius: 10px;
@@ -101,7 +96,7 @@ ul#buttons li {
 
 ul#buttons li a:link, nav ul li a:visited {
 	display: inline-block;
-	padding: 5px 10px 7px 10px; 
+	padding: 3px 8px 3px 8px; 
 	list-style-type: none;
 	text-decoration: none;
 	color: #ffffff;
@@ -109,7 +104,7 @@ ul#buttons li a:link, nav ul li a:visited {
 
 ul#buttons li a:hover {
 	background: #96AE22;
-	border-radius: 5px;
+	border-radius: 6px;
 	color: #ffffff;
 }
 

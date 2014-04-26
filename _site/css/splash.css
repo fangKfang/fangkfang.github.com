@@ -13,8 +13,8 @@ body {
 	height: 100%;
 	min-height: 400px;
 	position: relative; 
-	font: 300 14px Oleo Script Swash Caps;
-	color: #ffffff;
+	font: 300 14px 'Oleo Script Swash Caps';
+	color: #EFEFEF;
 }
 
 br {
@@ -27,14 +27,26 @@ h1 {
 }
 
 h2 {
-	font: 300 1em Open Sans;
+	font: 300 0.9em 'Roboto Slab';
 	margin-top: -1.55em;
 }
 
 h3 {
-	font: 300 0.65em Open Sans;
+	font: 300 0.7em 'Open Sans';
 	float: center;
-	margin-top: -1.5em;
+	margin-top: -1em;
+}
+
+a:link {
+	color: #96AE22;
+}
+
+a:visited {
+	color: #96AE22;
+}
+
+a:hover {
+	color: #FFFFFF;
 }
 
 #main {
@@ -59,7 +71,7 @@ h3 {
 .about {
 	display: block;
 	margin-top: -1.7em;
-	font-family: Open Sans;
+	font-family: 'Roboto Slab';
 	font-weight: 300; 
 	font-size: 1em;
 }
@@ -76,7 +88,8 @@ ul#buttons{
 }
 
 ul#buttons li {
-	font-family:  Open Sans;
+	font-family: 'Roboto Slab';
+	font-weight: 300;
 	display: inline-block;
 	border: 2px solid #96AE22;
 	-moz-border-radius: 10px;
@@ -88,7 +101,7 @@ ul#buttons li {
 
 ul#buttons li a:link, nav ul li a:visited {
 	display: inline-block;
-	padding: 3px 8px 3px 8px; 
+	padding: 5px 10px 7px 10px; 
 	list-style-type: none;
 	text-decoration: none;
 	color: #ffffff;
@@ -96,7 +109,7 @@ ul#buttons li a:link, nav ul li a:visited {
 
 ul#buttons li a:hover {
 	background: #96AE22;
-	border-radius: 6px;
+	border-radius: 5px;
 	color: #ffffff;
 }
 
