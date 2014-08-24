@@ -5,6 +5,7 @@
 		<meta charset="utf-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+		<link rel="shortcut icon" type="image/png" href="images/turtle.png">
 		<!-- Site Properties -->
 		<link rel="stylesheet" type="text/css" href="/media/css/semantic.css"/>
 		<link rel=stylesheet type="text/css" href="http://fonts.googleapis.com/css?family=Roboto+Slab|Roboto+Condensed:300italic,400italic,300,400|Open+Sans:400italic,600italic,400,600,300|Oleo+Script+Swash+Caps:400,700"/>
@@ -20,8 +21,11 @@
 </style>
 		<title>Eat Dirt!</title>	
 	</head>
-	<body class="nav menu">
-		<div class="ui thin vertical inverted labeled icon sidebar menu active">
+	<body id="here we go" class="button">
+		<div class="ui black icon toggle button">
+			<i class="reorder icon"></i>
+		</div>
+		<div class="ui thin vertical inverted labeled icon sidebar menu">
 			<a class="item">
 				<h1 class="ui header">Hello there!</h1>
 			</a>
@@ -42,9 +46,9 @@
 				Blog
 			</a>
 		</div>
+		
 
 	
-
 
 
 
@@ -53,20 +57,54 @@
 	<div class="container">
 		<div class="ui page grid">
 			<div class="column">
-				<div class="ui floating message">
+				<img class="rounded ui image" src="/images/flower.jpg">
+				<div class="ui secondary inverted bottom attached segment">
+					<!-- insert post title -->
 					<h1>Check this out</h1>
-					<p>While my elves are hard at work constructing this site, please feel free to check out my <a href="https://www.linkedin.com/in/fangkfang">LinkedIn</a>.</p>
+					<!-- insert post summary -->
+					<p>While my elves are hard at work constructing this site, please feel free to check out my <a href="https://www.linkedin.com/in/fangkfang">LinkedIn</a>
+					.</p>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="main container">
+	<div class="container">
 		<div class="ui page two column grid">
 			<div class="column">
-				<p>Hey Hey</p>
+				<img class="rounded ui image" src="/images/flower.jpg">
+				<div class="ui secondary inverted bottom attached segment">
+					<!-- insert post title -->
+					<h1>Check this out</h1>
+					<!-- insert post summary -->
+					<p>While my elves are hard at work constructing this site, please feel free to check out my <a href="https://www.linkedin.com/in/fangkfang">LinkedIn</a>
+					.</p>
+				</div>
+				<img class="rounded ui image" src="/images/flower.jpg">
+				<div class="ui secondary inverted bottom attached segment">
+					<!-- insert post title -->
+					<h1>Check this out</h1>
+					<!-- insert post summary -->
+					<p>While my elves are hard at work constructing this site, please feel free to check out my <a href="https://www.linkedin.com/in/fangkfang">LinkedIn</a>
+					.</p>
+				</div>
 			</div> 
 			<div class="column">
-				<p>Hello Hello</p>
+				<img class="rounded ui image" src="/images/flower.jpg">
+				<div class="ui secondary inverted bottom attached segment">
+					<!-- insert post title -->
+					<h1>Check this out</h1>
+					<!-- insert post summary -->
+					<p>While my elves are hard at work constructing this site, please feel free to check out my <a href="https://www.linkedin.com/in/fangkfang">LinkedIn</a>
+					.</p>
+				</div>
+				<img class="rounded ui image" src="/images/flower.jpg">
+				<div class="ui secondary inverted bottom attached segment">
+					<!-- insert post title -->
+					<h1>Check this out</h1>
+					<!-- insert post summary -->
+					<p>While my elves are hard at work constructing this site, please feel free to check out my <a href="https://www.linkedin.com/in/fangkfang">LinkedIn</a>
+					.</p>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -79,7 +117,7 @@
 	</script>
 
 	<script type="text/javascript">
-	$('.ui.sidebar').sidebar('push page');
+	$('.ui.sidebar').first().sidebar('attach events', '.toggle.button');
 
 	</script>
 	</body>
