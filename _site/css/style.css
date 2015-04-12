@@ -27,7 +27,7 @@
 		}
 
 	body, input, select, textarea {
-		color: #a2a2a2;
+		color: #777777;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -799,7 +799,7 @@
 		background-color: transparent;
 		border-radius: 0.35em;
 		border: solid 3px #efefef;
-		color: #787878 !important;
+		color: #524A4A !important;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 400;
