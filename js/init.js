@@ -107,7 +107,7 @@
 
 			// Lightbox gallery.
 				$('#one').poptrox({
-					caption: function($a) { return $a.next('h3').text(); },
+					caption: null,
 					overlayColor: '#2c2c2c',
 					overlayOpacity: 0.85,
 					popupCloserText: '',
@@ -115,7 +115,8 @@
 					selector: '.work-item a',
 					usePopupCaption: true,
 					usePopupDefaultStyling: false,
-					usePopupEasyClose: false,
+					usePopupEasyClose: true,
+					usePopupForceClose: true,
 					usePopupNav: true,
 					windowMargin: (skel.isActive('small') ? 0 : 50)
 				});
